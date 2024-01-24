@@ -1,0 +1,48 @@
+@font-face{
+font-family: matterhorn;
+src:url(font/matterhorn-cufonfonts/Matterhorn.ttf)
+}
+
+body{
+    font-family: 'matterhorn';
+}
+.logo{
+    display: flex;
+    background-image: url("index.html");
+   
+}
+.disney{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    margin: 10px
+}
+a{
+    color: black;
+}
+.wish{
+    background-size: cover;
+    z-index: 0;
+    
+}
+.wish-container{
+    display: flex;
+    width: 1500px;
+    height: 648px;
+    z-index: 0;
+    position: relative;
+}
+.toto{
+    width: 130px;
+    height: 70px;
+}
+.Asha{
+    z-index: 1;
+
+}
